@@ -1,0 +1,2 @@
+C:/msys64/ucrt64/bin/ar.exe qc libCMSISNNSoftmax.a CMakeFiles/CMSISNNSoftmax.dir/arm_nn_softmax_common_s8.c.obj CMakeFiles/CMSISNNSoftmax.dir/arm_softmax_s8.c.obj
+C:/msys64/ucrt64/bin/ranlib.exe libCMSISNNSoftmax.a

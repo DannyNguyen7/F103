@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "D:/STM32/F1/UART/Drivers/CMSIS/NN",
+    "files.associations": {
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_gpio_ex.h": "c"
+    }
+}

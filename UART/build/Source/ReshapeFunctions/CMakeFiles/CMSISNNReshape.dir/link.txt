@@ -1,0 +1,2 @@
+C:/msys64/ucrt64/bin/ar.exe qc libCMSISNNReshape.a CMakeFiles/CMSISNNReshape.dir/arm_reshape_s8.c.obj
+C:/msys64/ucrt64/bin/ranlib.exe libCMSISNNReshape.a

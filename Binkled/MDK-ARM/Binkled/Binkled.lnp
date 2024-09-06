@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"binkled\startup_stm32f411xe.o"
+"binkled\main.o"
+"binkled\stm32f4xx_it.o"
+"binkled\stm32f4xx_hal_msp.o"
+"binkled\stm32f4xx_hal_tim.o"
+"binkled\stm32f4xx_hal_tim_ex.o"
+"binkled\stm32f4xx_hal_rcc.o"
+"binkled\stm32f4xx_hal_rcc_ex.o"
+"binkled\stm32f4xx_hal_flash.o"
+"binkled\stm32f4xx_hal_flash_ex.o"
+"binkled\stm32f4xx_hal_flash_ramfunc.o"
+"binkled\stm32f4xx_hal_gpio.o"
+"binkled\stm32f4xx_hal_dma_ex.o"
+"binkled\stm32f4xx_hal_dma.o"
+"binkled\stm32f4xx_hal_pwr.o"
+"binkled\stm32f4xx_hal_pwr_ex.o"
+"binkled\stm32f4xx_hal_cortex.o"
+"binkled\stm32f4xx_hal.o"
+"binkled\stm32f4xx_hal_exti.o"
+"binkled\system_stm32f4xx.o"
+--strict --scatter "Binkled\Binkled.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Binkled.map" -o Binkled\Binkled.axf
